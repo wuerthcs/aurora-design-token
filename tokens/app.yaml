@@ -1,4 +1,8 @@
 imports:
-  - ./palette.yaml
+  - ./borders.yaml
   - ./colors_background.yaml
   - ./colors_text.yaml
+  - ./font-families.yaml
+  - ./font-sizes.yaml
+  - ./palette.yaml
+  - ./spacing.yaml

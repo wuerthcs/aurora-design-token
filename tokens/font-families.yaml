@@ -1,0 +1,6 @@
+global:
+  type: "font-family"
+  category: "font-family"
+props:
+  FONT_PRIMARY:
+    value: "Inter, system-ui, sans-serif"

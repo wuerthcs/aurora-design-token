@@ -1,18 +1,15 @@
 imports:
   - ./palette.yaml
+global:
+  type: "color"
+  category: "text-color"
 props:
-  colors_text_body_1:
+  COLORS_TEXT_BODY_1:
     value: "{!palette_black}"
-    type: "color"
-    category: "text"
     description: "The main body text color"
-  colors_text_body_2:
+  COLORS_TEXT_BODY_2:
     value: "{!palette_gray_2}"
-    type: "color"
-    category: "text"
     description: "The secondary body text color"
-  colors_text_link:
+  COLORS_TEXT_LINK:
     value: "{!palette_turquoise_2}"
-    type: "color"
-    category: "text"
     description: "The primary link color"

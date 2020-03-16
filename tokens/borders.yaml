@@ -1,0 +1,27 @@
+imports:
+  - ./palette.yaml
+props:
+  BORDER_RADIUS_SMALL:
+    value: 3px
+    type: size
+    category: radius
+  BORDER_RADIUS_MEDIUM:
+    value: 8px
+    type: size
+    category: radius
+  BORDER_RADIUS_LARGE:
+    value: 12px
+    type: size
+    category: radius
+  BORDER_RADIUS_CIRCLE:
+    value: 50%
+    type: size
+    category: radius
+  COLORS_BORDER_SEPARATOR:
+    value: "{!palette_muted_2}"
+    type: color
+    category: hr-color
+  COLORS_BORDER:
+    value: "{!palette_muted_2}"
+    type: color
+    category: hr-color

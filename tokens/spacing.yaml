@@ -1,0 +1,18 @@
+global:
+  type: size
+  category: spacing
+props:
+  SPACING_XX_SMALL:
+    value: 2px
+  SPACING_X_SMALL:
+    value: 4px
+  SPACING_SMALL:
+    value: 8px
+  SPACING_MEDIUM:
+    value: 16px
+  SPACING_LARGE:
+    value: 24px
+  SPACING_X_LARGE:
+    value: 32px
+  SPACING_XX_LARGE:
+    value: 64px
