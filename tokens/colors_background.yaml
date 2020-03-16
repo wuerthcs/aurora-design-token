@@ -1,0 +1,13 @@
+imports:
+  - ./palette.yaml
+props:
+  primary_background:
+    value: "{!palette_muted_1}"
+    type: "color"
+    category: "background"
+    description: "The main background for a page"
+  secondary_background:
+    value: "{!palette_white}"
+    type: "color"
+    category: "background"
+    description: "The secondary background for surfaces (cards, etc.)"

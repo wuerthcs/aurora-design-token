@@ -1,0 +1,13 @@
+imports:
+  - ./palette.yaml
+props:
+  colors_body_1:
+    value: "{!palette_black}"
+    type: "color"
+    category: "text"
+    description: "The main body text color"
+  colors_body_2:
+    value: "{!palette_gray_2}"
+    type: "color"
+    category: "text"
+    description: "The secondary body text color"

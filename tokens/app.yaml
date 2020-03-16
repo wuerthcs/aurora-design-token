@@ -1,0 +1,4 @@
+imports:
+  - ./palette.yaml
+  - ./colors_background.yaml
+  - ./colors_text.yaml
