@@ -1,0 +1,35 @@
+imports:
+  - ../palette.yaml
+props:
+  COLORS_AVATAR_BACKGROUND:
+    value: "{!palette_muted_2}"
+    type: color
+    category: background
+  COLORS_AVATAR_TEXT:
+    value: "{!palette_gray_1}"
+    type: color
+    category: text
+  BORDER_RADIUS_AVATAR:
+    value: 50%
+    type: size
+    category: radius
+  DIMENSION_AVATAR_X_SMALL:
+    value: 10px
+    type: size
+    category: dimension
+  DIMENSION_AVATAR_SMALL:
+    value: 16px
+    type: size
+    category: dimension
+  DIMENSION_AVATAR_MEDIUM:
+    value: 24px
+    type: size
+    category: dimension
+  DIMENSION_AVATAR_LARGE:
+    value: 32px
+    type: size
+    category: dimension
+  DIMENSION_AVATAR_XLARGE:
+    value: 48px
+    type: size
+    category: dimension

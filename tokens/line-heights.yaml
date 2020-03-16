@@ -1,0 +1,20 @@
+global:
+  type: "size"
+  category: "line-height"
+props:
+  LINE_HEIGHT_XXX_SMALL:
+    value: "12px"
+  LINE_HEIGHT_XX_SMALL:
+    value: "14px"
+  LINE_HEIGHT_X_SMALL:
+    value: "16px"
+  LINE_HEIGHT_SMALL:
+    value: "20px"
+  LINE_HEIGHT_MEDIUM:
+    value: "24px"
+  LINE_HEIGHT_LARGE:
+    value: "32px"
+  LINE_HEIGHT_X_LARGE:
+    value: "40px"
+  LINE_HEIGHT_XX_LARGE:
+    value: "56px"

@@ -1,0 +1,51 @@
+imports:
+  - ../palette.yaml
+props:
+  COLORS_BUTTON_DEFAULT_BACKGROUND:
+    value: "{!palette_turquoise_2}"
+    type: color
+    category: background
+  COLORS_BUTTON_DEFAULT_BACKGROUND_HOVER:
+    value: "{!palette_turquoise_3}"
+    type: color
+    category: background
+  COLORS_BUTTON_DEFAULT_BACKGROUND_ACTIVE:
+    value: "{!palette_turquoise_1}"
+    type: color
+    category: background
+  COLORS_BUTTON_DEFAULT_TEXT:
+    value: "{!palette_white}"
+    type: color
+    category: text
+  COLORS_BUTTON_PRIMARY_BACKGROUND:
+    value: "{!palette_turquoise_2}"
+    type: color
+    category: background
+  COLORS_BUTTON_PRIMARY_BACKGROUND_HOVER:
+    value: "{!palette_turquoise_3}"
+    type: color
+    category: background
+  COLORS_BUTTON_PRIMARY_BACKGROUND_ACTIVE:
+    value: "{!palette_turquoise_1}"
+    type: color
+    category: background
+  COLORS_BUTTON_PRIMARY_TEXT:
+    value: "{!palette_white}"
+    type: color
+    category: text
+  COLORS_BUTTON_DANGER_BACKGROUND:
+    value: "{!palette_danger_2}"
+    type: color
+    category: background
+  COLORS_BUTTON_DANGER_BACKGROUND_HOVER:
+    value: "{!palette_danger_3}"
+    type: color
+    category: background
+  COLORS_BUTTON_DANGER_BACKGROUND_ACTIVE:
+    value: "{!palette_danger_1}"
+    type: color
+    category: background
+  COLORS_BUTTON_DANGER_TEXT:
+    value: "{!palette_white}"
+    type: color
+    category: text

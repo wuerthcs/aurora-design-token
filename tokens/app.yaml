@@ -2,6 +2,8 @@ imports:
   - ./borders.yaml
   - ./colors_background.yaml
   - ./colors_text.yaml
+  - ./elements/avatar.yaml
+  - ./elements/button.yaml
   - ./font-families.yaml
   - ./font-sizes.yaml
   - ./palette.yaml
