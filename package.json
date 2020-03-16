@@ -1,6 +1,6 @@
 {
   "name": "@zip-software/aurora-tokens",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "files": [
     "README.md",
-    "./dist/**/*"
+    "dist"
   ],
   "keywords": [],
   "author": "ZIP-Software",
