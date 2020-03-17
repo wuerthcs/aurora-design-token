@@ -3,24 +3,24 @@ global:
   type: text
 props:
   MEDIA_QUERY_PHONE_MAX:
-    value: "media screen and (max-width: 639px)"
+    value: "@media screen and (max-width: 639px)"
   MEDIA_QUERY_TABLET_MIN:
-    value: "media screen and (min-width: 640px)"
+    value: "@media screen and (min-width: 640px)"
   MEDIA_QUERY_TABLET_MAX:
-    value: "media screen and (max-width: 1024px)"
+    value: "@media screen and (max-width: 1024px)"
   MEDIA_QUERY_SCREEN_SMALL_MIN:
-    value: "media screen and (min-width: 1025px)"
+    value: "@media screen and (min-width: 1025px)"
   MEDIA_QUERY_SCREEN_SMALL_MAX:
-    value: "media screen and (max-width: 1280px)"
+    value: "@media screen and (max-width: 1280px)"
   MEDIA_QUERY_SCREEN_MEDIUM_MIN:
-    value: "media screen and (min-width: 1281px)"
+    value: "@media screen and (min-width: 1281px)"
   MEDIA_QUERY_SCREEN_MEDIUM_MAX:
-    value: "media screen and (max-width: 1440px)"
+    value: "@media screen and (max-width: 1440px)"
   MEDIA_QUERY_SCREEN_LARGE_MIN:
-    value: "media screen and (min-width: 1441px)"
+    value: "@media screen and (min-width: 1441px)"
   MEDIA_QUERY_SCREEN_LARGE_MAX:
-    value: "media screen and (max-width: 1920px)"
+    value: "@media screen and (max-width: 1920px)"
   MEDIA_QUERY_SCREEN_X_LARGE_MIN:
-    value: "media screen and (min-width: 1921px)"
+    value: "@media screen and (min-width: 1921px)"
   MEDIA_QUERY_SCREEN_X_LARGE_MAX:
-    value: "media screen and (max-width: 2550px)"
+    value: "@media screen and (max-width: 2550px)"
