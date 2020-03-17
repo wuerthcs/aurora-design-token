@@ -1,21 +1,46 @@
 imports:
   - ../palette.yaml
-  - ../variables.yaml
+  - ../spacing.yaml
+  - ../borders.yaml
 props:
+  SPACING_BUTTON_SMALL_HORIZONTAL:
+    value: "{!variable_spacing_small}"
+    type: size
+    category: spacing
+  SPACING_BUTTON_SMALL_VERTICAL:
+    value: "{!variable_spacing_x_small}"
+    type: size
+    category: spacing
+  SPACING_BUTTON_MEDIUM_HORIZONTAL:
+    value: "{!variable_spacing_medium}"
+    type: size
+    category: spacing
+  SPACING_BUTTON_LARGE_VERTICAL:
+    value: "{!variable_spacing_medium}"
+    type: size
+    category: spacing
+  SPACING_BUTTON_LARGE_HORIZONTAL:
+    value: "{!variable_spacing_large}"
+    type: size
+    category: spacing
+  SPACING_BUTTON_MEDIUM_VERTICAL:
+    value: "{!variable_spacing_small}"
+    type: size
+    category: spacing
   BORDER_RADIUS_BUTTON_SMALL:
     value: "{!variable_border_radius_small}"
     type: size
     category: radius
   COLORS_BUTTON_DEFAULT_BACKGROUND:
-    value: "{!palette_turquoise_2}"
+    value: "{!palette_gray_1}"
     type: color
     category: background-color
   COLORS_BUTTON_DEFAULT_BACKGROUND_HOVER:
-    value: "{!palette_turquoise_3}"
+    value: "{!palette_gray_2}"
     type: color
     category: background-color
   COLORS_BUTTON_DEFAULT_BACKGROUND_ACTIVE:
-    value: "{!palette_turquoise_1}"
+    value: "{!palette_gray_2}"
     type: color
     category: background-color
   COLORS_BUTTON_DEFAULT_TEXT:
@@ -51,6 +76,22 @@ props:
     type: color
     category: background-color
   COLORS_BUTTON_DANGER_TEXT:
+    value: "{!palette_white}"
+    type: color
+    category: text-color
+  COLORS_BUTTON_SUCCESS_BACKGROUND:
+    value: "{!palette_success_2}"
+    type: color
+    category: background-color
+  COLORS_BUTTON_SUCCESS_BACKGROUND_HOVER:
+    value: "{!palette_success_3}"
+    type: color
+    category: background-color
+  COLORS_BUTTON_SUCCESS_BACKGROUND_ACTIVE:
+    value: "{!palette_success_1}"
+    type: color
+    category: background-color
+  COLORS_BUTTON_SUCCESS_TEXT:
     value: "{!palette_white}"
     type: color
     category: text-color

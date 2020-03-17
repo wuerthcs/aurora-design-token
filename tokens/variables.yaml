@@ -1,9 +1,0 @@
-aliases:
-  variable_border_radius_small:
-    value: 2px
-  variable_border_radius_medium:
-    value: 8px
-  variable_border_radius_large:
-    value: 12px
-  variable_border_radius_circle:
-    value: 50%

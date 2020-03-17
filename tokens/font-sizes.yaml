@@ -1,20 +1,37 @@
 global:
   type: "size"
   category: "font-size"
+aliases:
+  variable_font_size_xxx_small:
+    value: 10px
+  variable_font_size_xx_small:
+    value: 12px
+  variable_font_size_x_small:
+    value: 14px
+  variable_font_size_small:
+    value: 16px
+  variable_font_size_medium:
+    value: 20px
+  variable_font_size_large:
+    value: 24px
+  variable_font_size_x_large:
+    value: 32px
+  variable_font_size_xx_large:
+    value: 48px
 props:
   FONT_SIZE_XXX_SMALL:
-    value: "10px"
+    value: "{!variable_font_size_xxx_small}"
   FONT_SIZE_XX_SMALL:
-    value: "12px"
+    value: "{!variable_font_size_xx_small}"
   FONT_SIZE_X_SMALL:
-    value: "14px"
+    value: "{!variable_font_size_x_small}"
   FONT_SIZE_SMALL:
-    value: "16px"
+    value: "{!variable_font_size_small}"
   FONT_SIZE_MEDIUM:
-    value: "20px"
+    value: "{!variable_font_size_medium}"
   FONT_SIZE_LARGE:
-    value: "24px"
+    value: "{!variable_font_size_large}"
   FONT_SIZE_X_LARGE:
-    value: "32px"
+    value: "{!variable_font_size_x_large}"
   FONT_SIZE_XX_LARGE:
-    value: "48px"
+    value: "{!variable_font_size_xx_large}"

@@ -1,6 +1,14 @@
 imports:
   - ./palette.yaml
-  - ./variables.yaml
+aliases:
+  variable_border_radius_small:
+    value: 2px
+  variable_border_radius_medium:
+    value: 8px
+  variable_border_radius_large:
+    value: 12px
+  variable_border_radius_circle:
+    value: 50%
 props:
   BORDER_RADIUS_SMALL:
     value: "{!variable_border_radius_small}"
@@ -25,4 +33,8 @@ props:
   COLORS_BORDER:
     value: "{!palette_muted_2}"
     type: color
-    category: hr-color
+    category: border-color
+  COLORS_BORDER_MUTED:
+    value: "{!palette_muted_1}"
+    type: color
+    category: border-color

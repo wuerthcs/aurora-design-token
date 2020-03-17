@@ -33,3 +33,41 @@ aliases:
     value: "#151515"
   palette_black_transparent:
     value: "rgba(21, 21, 21, .8)"
+global:
+  type: color
+  category: background-color
+props:
+  COLORS_CORE_WHITE:
+    value: "{!palette_white}"
+  COLORS_CORE_WHITE_TRANSPARENT:
+    value: "{!palette_white_transparent}"
+  COLORS_CORE_MUTED_1:
+    value: "{!palette_muted_1}"
+  COLORS_CORE_MUTED_2:
+    value: "{!palette_muted_2}"
+  COLORS_CORE_TURQUOISE_1:
+    value: "{!palette_turquoise_1}"
+  COLORS_CORE_TURQUOISE_2:
+    value: "{!palette_turquoise_2}"
+  COLORS_CORE_TURQUOISE_3:
+    value: "{!palette_turquoise_3}"
+  COLORS_CORE_DANGER_1:
+    value: "{!palette_danger_1}"
+  COLORS_CORE_DANGER_2:
+    value: "{!palette_danger_2}"
+  COLORS_CORE_DANGER_3:
+    value: "{!palette_danger_3}"
+  COLORS_CORE_SUCCESS_1:
+    value: "{!palette_success_1}"
+  COLORS_CORE_SUCCESS_2:
+    value: "{!palette_success_2}"
+  COLORS_CORE_SUCCESS_3:
+    value: "{!palette_success_3}"
+  COLORS_CORE_GRAY_1:
+    value: "{!palette_gray_1}"
+  COLORS_CORE_GRAY_2:
+    value: "{!palette_gray_2}"
+  COLORS_CORE_BLACK:
+    value: "{!palette_black}"
+  COLORS_CORE_BLACK_TRANSPARENT:
+    value: "{!palette_black_transparent}"

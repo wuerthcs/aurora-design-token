@@ -1,18 +1,33 @@
+aliases:
+  variable_spacing_xx_small:
+    value: 2px
+  variable_spacing_x_small:
+    value: 4px
+  variable_spacing_small:
+    value: 8px
+  variable_spacing_medium:
+    value: 16px
+  variable_spacing_large:
+    value: 24px
+  variable_spacing_x_large:
+    value: 32px
+  variable_spacing_xx_large:
+    value: 64px
 global:
   type: size
   category: spacing
 props:
   SPACING_XX_SMALL:
-    value: 2px
+    value: "{!variable_spacing_xx_small}"
   SPACING_X_SMALL:
-    value: 4px
+    value: "{!variable_spacing_x_small}"
   SPACING_SMALL:
-    value: 8px
+    value: "{!variable_spacing_small}"
   SPACING_MEDIUM:
-    value: 16px
+    value: "{!variable_spacing_medium}"
   SPACING_LARGE:
-    value: 24px
+    value: "{!variable_spacing_large}"
   SPACING_X_LARGE:
-    value: 32px
+    value: "{!variable_spacing_x_large}"
   SPACING_XX_LARGE:
-    value: 64px
+    value: "{!variable_spacing_xx_large}"

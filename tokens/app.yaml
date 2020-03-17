@@ -6,5 +6,7 @@ imports:
   - ./elements/button.yaml
   - ./font-families.yaml
   - ./font-sizes.yaml
+  - ./media_queries.yaml
   - ./palette.yaml
+  - ./shadows.yaml
   - ./spacing.yaml

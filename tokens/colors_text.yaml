@@ -13,3 +13,5 @@ props:
   COLORS_TEXT_LINK:
     value: "{!palette_turquoise_2}"
     description: "The primary link color"
+  COLORS_TEXT_LINK_HOVER:
+    value: "{!palette_turquoise_3}"

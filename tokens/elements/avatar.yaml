@@ -14,22 +14,22 @@ props:
     type: size
     category: radius
   DIMENSION_AVATAR_X_SMALL:
-    value: 10px
+    value: 12px
     type: size
-    category: dimension
+    category: sizing
   DIMENSION_AVATAR_SMALL:
     value: 16px
     type: size
-    category: dimension
+    category: sizing
   DIMENSION_AVATAR_MEDIUM:
     value: 24px
     type: size
-    category: dimension
+    category: sizing
   DIMENSION_AVATAR_LARGE:
     value: 32px
     type: size
-    category: dimension
+    category: sizing
   DIMENSION_AVATAR_XLARGE:
     value: 48px
     type: size
-    category: dimension
+    category: sizing

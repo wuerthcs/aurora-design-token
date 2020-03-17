@@ -1,20 +1,37 @@
 global:
   type: "size"
   category: "line-height"
+aliases:
+  variable_line_height_xxx_small:
+    value: 12px
+  variable_line_height_xx_small:
+    value: 14px
+  variable_line_height_x_small:
+    value: 16px
+  variable_line_height_small:
+    value: 20px
+  variable_line_height_medium:
+    value: 24px
+  variable_line_height_large:
+    value: 32px
+  variable_line_height_x_large:
+    value: 40px
+  variable_line_height_xx_large:
+    value: 56px
 props:
   LINE_HEIGHT_XXX_SMALL:
-    value: "12px"
+    value: "{!variable_line_height_xxx_small}"
   LINE_HEIGHT_XX_SMALL:
-    value: "14px"
+    value: "{!variable_line_height_xx_small}"
   LINE_HEIGHT_X_SMALL:
-    value: "16px"
+    value: "{!variable_line_height_x_small}"
   LINE_HEIGHT_SMALL:
-    value: "20px"
+    value: "{!variable_line_height_small}"
   LINE_HEIGHT_MEDIUM:
-    value: "24px"
+    value: "{!variable_line_height_medium}"
   LINE_HEIGHT_LARGE:
-    value: "32px"
+    value: "{!variable_line_height_large}"
   LINE_HEIGHT_X_LARGE:
-    value: "40px"
+    value: "{!variable_line_height_x_large}"
   LINE_HEIGHT_XX_LARGE:
-    value: "56px"
+    value: "{!variable_line_height_xx_large}"
