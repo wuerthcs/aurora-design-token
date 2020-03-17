@@ -11,6 +11,7 @@
   "files": [
     "README.md",
     "public",
+    "dist",
     "example.html"
   ],
   "keywords": [],
