@@ -7,7 +7,7 @@ export const palette = {
   gray1: "#A9A9A9",
   gray2: "#7B7B7B",
   muted1: "#f1f1f1",
-  muted2: "##dddddd",
+  muted2: "#dddddd",
   success1: "#72D8AD",
   success2: "#26C582",
   success3: "#0C9A5E",
