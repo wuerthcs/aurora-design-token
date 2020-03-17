@@ -39,7 +39,9 @@ const generateToken = async (target, type) => {
 
 const main = async () => {
   await generateTokenFile("web", "json");
+  await generateTokenFile("web", "json");
   await generateTokenFile("web", "sass");
+  await generateTokenFile("web", "common.js");
   await generateTokenFile("web", "custom-properties.css");
   await generateTokenFile("android", "android.xml");
   await generateTokenFile("ios", "ios.json");

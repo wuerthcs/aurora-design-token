@@ -2,7 +2,7 @@
   "name": "@zip-software/aurora-tokens",
   "version": "1.0.8",
   "description": "",
-  "main": "index.js",
+  "main": "dist/web.js",
   "scripts": {
     "start": "nodemon ./index.js -e js,yaml,json --ignore dist/ --ignore node_modules",
     "build": "node ./index.js",
