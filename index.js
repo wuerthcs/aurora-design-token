@@ -54,7 +54,7 @@ const main = async () => {
         type: "html"
       }
     })
-    .then(res => writeFile(".", "example.html", res));
+    .then(res => writeFile("./public", "example.html", res));
 };
 
 main();

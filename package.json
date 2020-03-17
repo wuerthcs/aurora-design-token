@@ -10,7 +10,7 @@
   },
   "files": [
     "README.md",
-    "dist",
+    "public",
     "example.html"
   ],
   "keywords": [],
