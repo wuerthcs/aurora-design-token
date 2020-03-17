@@ -1,6 +1,6 @@
 {
   "name": "@zip-software/aurora-tokens",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "main": "dist/web.js",
   "types": "./tokens.d.ts",
@@ -15,7 +15,9 @@
     "README.md",
     "public",
     "dist",
-    "example.html"
+    "example.html",
+    "tokens.js",
+    "tokens.d.ts"
   ],
   "keywords": [],
   "author": "ZIP-Software",
