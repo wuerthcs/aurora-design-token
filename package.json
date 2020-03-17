@@ -1,23 +1,18 @@
 {
   "name": "@zip-software/aurora-tokens",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "",
-  "main": "dist/web.js",
-  "types": "./tokens.d.ts",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "start": "nodemon ./build.js -e js,yaml,json --ignore dist/ --ignore node_modules --ignore tokens.d.ts --ignore tokens.js",
-    "build": "node ./build.js && npm run typings",
+    "start": "tsc watch",
+    "build": "tsc --declaration",
     "prepublish": "npm run build",
-    "typings": "tsc --declaration --allowJs --outFile ./tokens.js ./dist/web.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
     "README.md",
-    "public",
-    "dist",
-    "example.html",
-    "tokens.js",
-    "tokens.d.ts"
+    "dist"
   ],
   "keywords": [],
   "author": "ZIP-Software",
