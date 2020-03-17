@@ -1,51 +1,56 @@
 imports:
   - ../palette.yaml
+  - ../variables.yaml
 props:
+  BORDER_RADIUS_BUTTON_SMALL:
+    value: "{!variable_border_radius_small}"
+    type: size
+    category: radius
   COLORS_BUTTON_DEFAULT_BACKGROUND:
     value: "{!palette_turquoise_2}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_DEFAULT_BACKGROUND_HOVER:
     value: "{!palette_turquoise_3}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_DEFAULT_BACKGROUND_ACTIVE:
     value: "{!palette_turquoise_1}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_DEFAULT_TEXT:
     value: "{!palette_white}"
     type: color
-    category: text
+    category: text-color
   COLORS_BUTTON_PRIMARY_BACKGROUND:
     value: "{!palette_turquoise_2}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_PRIMARY_BACKGROUND_HOVER:
     value: "{!palette_turquoise_3}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_PRIMARY_BACKGROUND_ACTIVE:
     value: "{!palette_turquoise_1}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_PRIMARY_TEXT:
     value: "{!palette_white}"
     type: color
-    category: text
+    category: text-color
   COLORS_BUTTON_DANGER_BACKGROUND:
     value: "{!palette_danger_2}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_DANGER_BACKGROUND_HOVER:
     value: "{!palette_danger_3}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_DANGER_BACKGROUND_ACTIVE:
     value: "{!palette_danger_1}"
     type: color
-    category: background
+    category: background-color
   COLORS_BUTTON_DANGER_TEXT:
     value: "{!palette_white}"
     type: color
-    category: text
+    category: text-color

@@ -2,7 +2,7 @@ imports:
   - ./palette.yaml
 global:
   type: "color"
-  category: "background"
+  category: "background-color"
 props:
   COLORS_BACKGROUND_PRIMARY:
     value: "{!palette_muted_1}"

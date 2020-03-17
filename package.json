@@ -10,7 +10,8 @@
   },
   "files": [
     "README.md",
-    "dist"
+    "dist",
+    "example.html"
   ],
   "keywords": [],
   "author": "ZIP-Software",

@@ -1,20 +1,21 @@
 imports:
   - ./palette.yaml
+  - ./variables.yaml
 props:
   BORDER_RADIUS_SMALL:
-    value: 3px
+    value: "{!variable_border_radius_small}"
     type: size
     category: radius
   BORDER_RADIUS_MEDIUM:
-    value: 8px
+    value: "{!variable_border_radius_medium}"
     type: size
     category: radius
   BORDER_RADIUS_LARGE:
-    value: 12px
+    value: "{!variable_border_radius_large}"
     type: size
     category: radius
   BORDER_RADIUS_CIRCLE:
-    value: 50%
+    value: "{!variable_border_radius_circle}"
     type: size
     category: radius
   COLORS_BORDER_SEPARATOR:

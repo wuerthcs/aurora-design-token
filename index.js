@@ -1,16 +1,22 @@
 const fs = require("fs");
 const theo = require("theo");
 
+const writeFile = (path, fileName, content) => {
+  return new Promise((resolve, reject) => {
+    if (!fs.existsSync(path)) {
+      fs.mkdirSync(path);
+    }
+    fs.writeFile(`${path}/${fileName}`, content, err => {
+      resolve();
+    });
+  });
+};
+
 const writeTokenFileWithContent = (format, target, content) => {
   return new Promise((resolve, reject) => {
     const parts = format.split(".");
     const ext = parts[parts.length - 1];
-    if (!fs.existsSync(`./dist`)) {
-      fs.mkdirSync(`./dist`);
-    }
-    fs.writeFile(`./dist/${target}.${ext}`, content, err => {
-      resolve();
-    });
+    writeFile("./dist", `${target}.${ext}`, content).then(() => resolve());
   });
 };
 
@@ -37,6 +43,18 @@ const main = async () => {
   await generateTokenFile("web", "custom-properties.css");
   await generateTokenFile("android", "android.xml");
   await generateTokenFile("ios", "ios.json");
+
+  await theo
+    .convert({
+      transform: {
+        file: "./tokens/app.yaml",
+        type: "web"
+      },
+      format: {
+        type: "html"
+      }
+    })
+    .then(res => writeFile(".", "example.html", res));
 };
 
 main();

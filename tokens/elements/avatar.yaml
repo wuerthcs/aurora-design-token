@@ -4,11 +4,11 @@ props:
   COLORS_AVATAR_BACKGROUND:
     value: "{!palette_muted_2}"
     type: color
-    category: background
+    category: background-color
   COLORS_AVATAR_TEXT:
     value: "{!palette_gray_1}"
     type: color
-    category: text
+    category: text-color
   BORDER_RADIUS_AVATAR:
     value: 50%
     type: size
