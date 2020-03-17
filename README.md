@@ -1,4 +1,4 @@
-# Aurora Design Tokens
+# [Aurora Design Tokens](https://aurora-design-tokens.netlify.com/)
 
 > Design tokens for the Aurora Design System maintained by the team over at [ZIP-Software](https://github.com/ZIP-Software)
 
@@ -6,11 +6,54 @@ Aurora is the name for our design system used at ZIP-Software products. This rep
 
 ## Installation
 
-> WIP
+The Aurora Design Tokens can be installed via npm or yarn:
+
+```sh
+npm i @zip-software/aurora-design-tokens --save
+```
+
+or
+
+```sh
+yarn add @zip-software/aurora-design-tokens
+```
 
 ## Usage
 
-> WIP
+The Aurora Design Tokens library gives you access to different files built by the theo transformer. You can find the following files in the dist folder:
+
+- `@zip-software/aurora-design-tokens/dist/android.xml`
+- `@zip-software/aurora-design-tokens/dist/ios.json`
+- `@zip-software/aurora-design-tokens/dist/web.css` - CSS custom properties
+- `@zip-software/aurora-design-tokens/dist/web.json` - tokens in JSON format
+- `@zip-software/aurora-design-tokens/dist/web.sass` - tokens in SASS format
+
+For example a React application could consume the css properties like this:
+
+```tsx
+import "@zip-software/aurora-design-tokens/dist/web.css";
+```
+
+or could consume the json like this:
+
+```tsx
+import adt from "@zip-software/aurora-design-tokens/dist/web.json";
+
+// ...
+// ...
+// ...
+
+const divStyles = {
+  backgroundColor: adt.COLORS_BACKGROUND_PRIMARY,
+  borderRadius: adt.BORDER_RADIUS_MEDIUM
+};
+
+function MyComponent() {
+  return <div styles={divStyles}>Hello world</div>;
+}
+
+export default MyComponent;
+```
 
 ## Contribution
 
@@ -24,6 +67,6 @@ Thanks for checking out Aurora!
 
 - [bdbch](https://github.com/bdbch)
 
-## Code of Conduct
+## Links
 
-> WIP
+- [Code of Conduct](CODE_OF_CONDUCT.md)
