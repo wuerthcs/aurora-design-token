@@ -6,7 +6,8 @@
   "types": "./tokens.d.ts",
   "scripts": {
     "start": "nodemon ./build.js -e js,yaml,json --ignore dist/ --ignore node_modules --ignore tokens.d.ts --ignore tokens.js",
-    "build": "node ./build.js",
+    "build": "node ./build.js && npm run typings",
+    "prepublish": "npm run build",
     "typings": "tsc --declaration --allowJs --outFile ./tokens.js ./dist/web.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
